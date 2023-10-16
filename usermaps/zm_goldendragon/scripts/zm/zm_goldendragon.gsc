@@ -46,6 +46,7 @@
 #using scripts\zm\_zm_powerup_insta_kill;
 #using scripts\zm\_zm_powerup_nuke;
 //#using scripts\zm\_zm_powerup_weapon_minigun;
+#using scripts\zm\_hb21_zm_magicbox;
 
 //Traps
 #using scripts\zm\_zm_trap_electric;

@@ -33,5 +33,11 @@
     "Filename" : "zm_shadows.csv",
     "Specs" : [ ]
 },
+{
+    "Type" : "ALIAS",
+    "Name" : "mysterybox_sounds",
+    "Filename" : "mysterybox_sounds.csv",
+    "Specs" : [ ] 
+},
 ]
 }

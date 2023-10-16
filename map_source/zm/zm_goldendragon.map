@@ -522,13 +522,13 @@ guid "{839A5668-F81F-4B63-A07E-6E3D84126FDE}"
 "classname" "volume_sun"
 "shadowSplitDistance" "750"
 "ssi" "default_day"
-"ssi1" "default_day"
 "global_fill_color" "0 0 0"
 "global_fill_intensity" "1"
 "grid_density" "32"
 "respectLightLods" "1"
 "shadowBiasScale" "1"
 "shadowVistaDetail" "1"
+"ssi1" "default_day"
 "streamLighting" "1"
 // brush 0
 {
@@ -929,4 +929,20 @@ guid "{CEF5FF0A-6C4F-11EE-9CFE-10683840FFFE}"
 "superellipse" "0.75 1 0.75 1"
 "volumetricSampleCount" "8"
 "spawnflags" "84"
+}
+// entity 36
+{
+guid "{6B286FA3-6C59-11EE-9CFE-10683840FFFE}"
+"classname" "misc_prefab"
+"angles" "0 180 0"
+"model" "_prefabs/zm/harrybo21_prefabs/mysterybox/t7_mysterybox_0.map"
+"origin" "363 -993 5"
+}
+// entity 37
+{
+guid "{9567836A-6C5A-11EE-9CFE-10683840FFFE}"
+"classname" "misc_prefab"
+"angles" "0 270 0"
+"model" "_prefabs/zm/harrybo21_prefabs/mysterybox/t7_mysterybox_1.map"
+"origin" "956.5 -1053.5 4"
 }
