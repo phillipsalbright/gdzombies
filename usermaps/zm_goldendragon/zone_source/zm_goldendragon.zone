@@ -1,0 +1,18 @@
+>class,zm_mod_level
+>group,modtools
+
+xmodel,skybox_default_day
+material,luts_t7_default
+	
+// BSP
+col_map,maps/zm/zm_goldendragon.d3dbsp
+gfx_map,maps/zm/zm_goldendragon.d3dbsp
+
+// Audio
+sound,zm_goldendragon
+
+scriptparsetree,scripts/zm/zm_goldendragon.gsc
+scriptparsetree,scripts/zm/zm_goldendragon.csc
+
+	
+	

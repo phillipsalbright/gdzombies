@@ -1,0 +1,26 @@
+return 5000
+^3DROPPED VERTS. 4 warnings encountered while processing xmodel 'c_c_zom_der_hellhound_lod0'. Log can be found here: D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\c_c_zom_der_hellhound_lod0_f0_s1.000000_geo_EUC63DSZMENIWQ7UQRPDIKJJZA.log
+  xmodel:c_zom_der_hellhound_fb
+    character:c_zom_der_hellhound
+      aitype:spawner_zm_factory_zombie_dog
+        col_map:maps/zm/zm_goldendragon.d3dbsp
+^31549 warnings encountered while processing xmodel 'c_c_zom_der_hellhound_lod3'. Log can be found here: D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\c_c_zom_der_hellhound_lod3_f0_s1.000000_geo_75VXU3EB6FYZQQYLHYU44UVX5Y.log
+  xmodel:c_zom_der_hellhound_fb
+    character:c_zom_der_hellhound
+      aitype:spawner_zm_factory_zombie_dog
+        col_map:maps/zm/zm_goldendragon.d3dbsp
+^34703 warnings encountered while processing xmodel 'c_c_zom_der_hellhound_lod2'. Log can be found here: D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\c_c_zom_der_hellhound_lod2_f0_s1.000000_geo_TDYNIMUPF2MZONNEKBMBPPFMNQ.log
+  xmodel:c_zom_der_hellhound_fb
+    character:c_zom_der_hellhound
+      aitype:spawner_zm_factory_zombie_dog
+        col_map:maps/zm/zm_goldendragon.d3dbsp
+^39330 warnings encountered while processing xmodel 'c_c_zom_der_hellhound_lod1'. Log can be found here: D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\c_c_zom_der_hellhound_lod1_f0_s1.000000_geo_XYVFTJIUQ2ZEDQQLUEE3UAJ5N2.log
+  xmodel:c_zom_der_hellhound_fb
+    character:c_zom_der_hellhound
+      aitype:spawner_zm_factory_zombie_dog
+        col_map:maps/zm/zm_goldendragon.d3dbsp
+^3985 warnings encountered while processing xmodel 'c_c_zom_der_hellhound_lod4'. Log can be found here: D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\c_c_zom_der_hellhound_lod4_f0_s1.000000_geo_QM7FXK3JTKXSVPY2OB2SSR7Z7B.log
+  xmodel:c_zom_der_hellhound_fb
+    character:c_zom_der_hellhound
+      aitype:spawner_zm_factory_zombie_dog
+        col_map:maps/zm/zm_goldendragon.d3dbsp
