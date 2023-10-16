@@ -5,7 +5,7 @@ iwmap 4
 "The Map" flags expanded 
 // entity 0
 {
-guid "{44B84F92-6BD8-11EE-87DC-D45DDF0B7C90}"
+guid "{8F802997-6C4F-11EE-9CFE-10683840FFFE}"
 "classname" "worldspawn"
 "lightingquality" "1024"
 "samplescale" "1"
@@ -434,6 +434,16 @@ guid "{44B84F92-6BD8-11EE-87DC-D45DDF0B7C90}"
  ( 144 -1088 80 ) ( 120 -1088 80 ) ( 120 -1088 4 ) script_wall 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 120 -996 80 ) ( 120 -1036 80 ) ( 120 -1036 4 ) script_wall 32 32 -204 0 0 0 lightmap_gray 16384 16384 -204 0 0 0
 }
+// brush 41
+{
+ guid "{8F80299C-6C4F-11EE-9CFE-10683840FFFE}"
+ ( -1319 -1612 130.5 ) ( 985 -1612 130.5 ) ( 985 948 130.5 ) script_floor_ceiling 128 128 217 -180 0 0 lightmap_gray 16384 16384 217 -180 0 0
+ ( -1327 -1144 -109.5 ) ( -1327 -1144 146.5 ) ( 977 -1144 146.5 ) script_floor_ceiling 128 128 209 -146.5 0 0 lightmap_gray 16384 16384 209 -210.5 0 0
+ ( 1141 716 -109.5 ) ( 1141 -1844 -109.5 ) ( 1141 -1844 146.5 ) script_floor_ceiling 128 128 -52 -146.5 0 0 lightmap_gray 16384 16384 -52 -210.5 0 0
+ ( 1093 -760 -109.5 ) ( 1093 -760 146.5 ) ( -1211 -760 146.5 ) script_floor_ceiling 128 128 325 -146.5 0 0 lightmap_gray 16384 16384 325 -210.5 0 0
+ ( -1387 932 146.5 ) ( -1387 -1628 146.5 ) ( -1387 -1628 -109.5 ) script_floor_ceiling 128 128 164 -146.5 0 0 lightmap_gray 16384 16384 164 -210.5 0 0
+ ( -1319 948 150.5 ) ( 985 948 150.5 ) ( 985 -1612 150.5 ) script_floor_ceiling 128 128 217 -180 0 0 lightmap_gray 16384 16384 217 -180 0 0
+}
 }
 // entity 1
 {
@@ -458,7 +468,7 @@ guid "{97906A08-8BF0-4B79-8BB0-9F8BC9A3BA50}"
 guid "{8CC95569-F3C4-4AF8-ADF7-54226DA99F7E}"
 "classname" "script_struct"
 "angles" "0 360 0"
-"origin" "524 -1064 40"
+"origin" "524 -1064 0"
 "script_noteworthy" "riser_location"
 "script_string" "find_flesh"
 "targetname" "start_zone_spawners"
@@ -510,13 +520,13 @@ guid "{05887D6C-49AC-47B4-993C-770D3FFD52E1}"
 {
 guid "{839A5668-F81F-4B63-A07E-6E3D84126FDE}"
 "classname" "volume_sun"
+"shadowSplitDistance" "750"
 "ssi" "default_day"
 "global_fill_color" "0 0 0"
 "global_fill_intensity" "1"
 "grid_density" "32"
 "respectLightLods" "1"
 "shadowBiasScale" "1"
-"shadowSplitDistance" "2000"
 "shadowVistaDetail" "1"
 "ssi1" "default_day"
 "streamLighting" "1"
@@ -846,4 +856,77 @@ guid "{8E7402DD-6BDD-11EE-87DC-D45DDF0B7C90}"
 "lightingstate4" "1"
 "modelscale" "1"
 "static" "1"
+}
+// entity 32
+{
+guid "{043170C9-6BF0-11EE-87DC-D45DDF0B7C90}"
+"classname" "script_struct"
+"origin" "-316 -1004 4"
+"script_noteworthy" "dog_location"
+"targetname" "start_zone_spawners"
+"_color" "1 0 0"
+}
+// entity 33
+{
+guid "{043170CC-6BF0-11EE-87DC-D45DDF0B7C90}"
+"classname" "actor_spawner_zm_factory_zombie_dog"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"angles" "0 90 0"
+"export" "3"
+"origin" "-251.4 -1558.9 3.89999"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_dog_spawner"
+"targetname" "special_dog_spawner"
+"SPAWNER" "1"
+"_color" "1 0.25 0"
+"count" "1"
+"engageMaxDist" "768"
+"engageMinDist" "256"
+"model" "zombie_wolf"
+"script_dropammo" "1"
+"sm_active_count_max" "3"
+"sm_active_count_min" "3"
+"spawnflags" "3"
+}
+// entity 34
+{
+guid "{276CC9F5-6BF0-11EE-87DC-D45DDF0B7C90}"
+"classname" "script_struct"
+"origin" "-260 -836 16"
+"script_noteworthy" "dog_location"
+"targetname" "start_zone_spawners"
+"_color" "1 0 0"
+}
+// entity 35
+{
+guid "{CEF5FF0A-6C4F-11EE-9CFE-10683840FFFE}"
+"classname" "light"
+"ENABLE_FALLOFF" "1"
+"PRIMARY_TYPE" "PRIMARY_SPOT"
+"_color" "1 0 0"
+"bake_intensity_scale" "5"
+"bulbLength" "10"
+"falloffdistance" "40"
+"origin" "-240.5 -998 155.5"
+"radius" "171"
+"stops" "20"
+"PRIMARY_NOSHADOWMAP" "1"
+"client_server" "ClientSide"
+"def_tile" "1 1"
+"excludeDedicated" "Off"
+"far_edge" "0.949999988079071"
+"fov_outer" "90"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"name" "light"
+"penumbraRadius" "1.5"
+"roundness" "0.5"
+"shadowUpdate" "Never"
+"shadowmapScale" "1"
+"superellipse" "0.75 1 0.75 1"
+"volumetricSampleCount" "8"
+"spawnflags" "84"
 }
