@@ -905,6 +905,7 @@ material,ei/gfx_gel_drops_full_lite_spec|dup
 material,ei/gfx_light_ray_spread_streaks_em
 material,ei/gfx_light_ray_spread_streaks_em|dup
 material,luts_t7_default
+material,mc/$default
 material,mc/bullet_collision_wood
 material,mc/flcube_mat
 material,mc/invisible
@@ -970,10 +971,10 @@ material,mc/t7_decal_damage_wood_splinter_01
 material,mc/t7_metal_grate_flooring
 material,mc/t7_metal_grunge_light_01_dull
 material,mc/t7_metal_rust_03
-material,mc/t7_wood_beam_worn_oak_bleached
 material,wc/script_floor_ceiling
 material,wc/script_wall
 material,wc/t7_zm_chalk_buy_krm
+techset,mc/default#e6142445
 techset,mc/emissive_add#e6142445
 techset,mc/lit_backlit#e6142445
 techset,mc/lit_micro_tile_blend_advanced#e6142445
@@ -1149,9 +1150,6 @@ image,i_t7_micro_metal_grunge_scratch_fine_01_g
 image,i_t7_micro_metal_grunge_scratch_fine_01_n
 image,i_t7_micro_metal_rust_01_c
 image,i_t7_micro_metal_rust_01_n
-image,i_t7_micro_wood_varied_teak_n
-image,i_t7_wood_beam_worn_oak_bleached_c
-image,i_t7_wood_beam_worn_oak_n
 image,i_t7_wood_worn_brown_n
 image,i_t7_zm_chalk_buy_krm_c
 image,img_luts_curve_blend
