@@ -70,6 +70,11 @@ function main()
 	level thread zm_zonemgr::manage_zones( init_zones );
 
 	level.pathdist_type = PATHDIST_ORIGINAL;
+
+	//Starting Weapon
+	 startingWeapon = "pistol_revolver38";
+	 weapon = getWeapon(startingWeapon);
+	 level.start_weapon = (weapon);//Starting Weapon
 }
 
 function usermap_test_zone_init()
