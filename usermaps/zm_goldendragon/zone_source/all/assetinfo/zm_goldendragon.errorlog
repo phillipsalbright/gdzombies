@@ -1,4 +1,4 @@
-return 5000000
+return 14065000
 ^1ERROR: Material t7_wood_beam_worn_oak_bleached was not found in gdtDB
   material:mc/t7_wood_beam_worn_oak_bleached
     xmodel:p7_zm_zod_door_smashed_zombie_entrance
@@ -15,3 +15,370 @@ return 5000000
 ^1The model (p7_zm_zod_door_smashed_zombie_entrance) uses material (t7_wood_beam_worn_oak_bleached) but there is no techset for surface 5
   xmodel:p7_zm_zod_door_smashed_zombie_entrance
     col_map:maps/zm/zm_goldendragon.d3dbsp
+^1ERROR: Material gfx_light_incandescent_hot_lg was not found in gdtDB
+  material:ei/gfx_light_incandescent_hot_lg
+    fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^1ERROR: Material gfx_water_bubble_int1_anim_em_i128 was not found in gdtDB
+  material:ei/gfx_water_bubble_int1_anim_em_i128
+    fx:harry/chaos_box/fx_chaos_box_blood_drip.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^1ERROR: Material gfx_light_ray_wide_em_nocull was not found in gdtDB
+  material:ei/gfx_light_ray_wide_em_nocull
+    fx:dlc5/tomb/fx_tomb_magicbox_amb_base.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^1ERROR: Material gfx_gradient_hill_steep_em was not found in gdtDB
+  material:ei/gfx_gradient_hill_steep_em
+    fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^1ERROR: Material gfx_spark_blink_anim_pcloud_em was not found in gdtDB
+  material:ec/gfx_spark_blink_anim_pcloud_em
+    fx:dlc5/tomb/fx_tomb_magicbox_portal.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^1Effect 'fx/dlc5/tomb/fx_tomb_marker_fl.efx' not found
+  fx:dlc5/tomb/fx_tomb_marker_fl.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^1Effect 'fx/dlc5/tomb/fx_tomb_marker.efx' not found
+  fx:dlc5/tomb/fx_tomb_marker.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^1ERROR: Material mtl_p7_zm_zod_table_ritual_skull was not found in gdtDB
+  material:mc/mtl_p7_zm_zod_table_ritual_skull
+    xmodel:p7_zm_zod_magic_box_tentacle_teddy
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^1The model (p7_zm_zod_magic_box_tentacle_teddy) uses material (mtl_p7_zm_zod_table_ritual_skull) but there is no techset for surface 2
+  xmodel:p7_zm_zod_magic_box_tentacle_teddy
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy copy':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy copy copy':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy copy copy copy':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy copy':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy copy copy':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy copy copy copy':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_blood_drip' segment 'wraith_looping_def5':
+material ei/gfx_water_bubble_int1_anim_em_i128 has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_blood_drip.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_blood_drip' segment 'wraith_looping_def5':
+material ei/gfx_water_bubble_int1_anim_em_i128 has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_blood_drip.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def0':
+material ,ei/gfx_smk_rolling_dense_lg_anim has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def1':
+material ,ei/gfx_dust_heli_swirl_anim_full_dark_lit has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def5':
+material ,ei/gfx_dust_heli_swirl_anim_full_dark_lit has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def8':
+material ,ei/gfx_shockwave_anim_lit_nocull has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def10':
+material ,ei/gfx_light_incandescent_hot_em_i128 has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_oneshot_def1':
+material ,ei/gfx_fog_slow_lg_anim_em_full_dark has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def0':
+material ,ei/gfx_smk_rolling_dense_lg_anim has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def1':
+material ,ei/gfx_dust_heli_swirl_anim_full_dark_lit has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def5':
+material ,ei/gfx_dust_heli_swirl_anim_full_dark_lit has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def8':
+material ,ei/gfx_shockwave_anim_lit_nocull has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_looping_def10':
+material ,ei/gfx_light_incandescent_hot_em_i128 has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave' segment 'wraith_oneshot_def1':
+material ,ei/gfx_fog_slow_lg_anim_em_full_dark has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave_end' segment 'wraith_oneshot_def4':
+material ,ei/gfx_gel_drops_em_full_lite has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave_end
+    fx:harry/chaos_box/fx_chaos_box_leave.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave_end' segment 'wraith_oneshot_def5':
+material ,ei/gfx_gel_drops_em_full_lite has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave_end
+    fx:harry/chaos_box/fx_chaos_box_leave.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave_end' segment 'wraith_oneshot_def4':
+material ,ei/gfx_gel_drops_em_full_lite has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave_end
+    fx:harry/chaos_box/fx_chaos_box_leave.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_leave_end' segment 'wraith_oneshot_def5':
+material ,ei/gfx_gel_drops_em_full_lite has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_leave_end
+    fx:harry/chaos_box/fx_chaos_box_leave.efx
+      csv:hb21_mystery_boxes.zpkg
+        csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def0':
+material ,ei/gfx_smk_rolling_dense_lg_anim has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def1':
+material ,ei/gfx_dust_heli_swirl_anim_full_dark_lit has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def5':
+material ,ei/gfx_dust_heli_swirl_anim_full_dark_lit has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def8':
+material ,ei/gfx_shockwave_anim_lit_nocull has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def10':
+material ,ei/gfx_light_incandescent_hot_em_i128 has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_oneshot_def1':
+material ,ei/gfx_fog_slow_lg_anim_em_full_dark has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def0':
+material ,ei/gfx_smk_rolling_dense_lg_anim has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def1':
+material ,ei/gfx_dust_heli_swirl_anim_full_dark_lit has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def5':
+material ,ei/gfx_dust_heli_swirl_anim_full_dark_lit has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def8':
+material ,ei/gfx_shockwave_anim_lit_nocull has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_looping_def10':
+material ,ei/gfx_light_incandescent_hot_em_i128 has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_arrive' segment 'wraith_oneshot_def1':
+material ,ei/gfx_fog_slow_lg_anim_em_full_dark has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_arrive.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_lid_drips' segment 'wraith_looping_def1':
+material ,ei/gfx_gel_splat_string_em has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_lid_drips.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_lid_drips' segment 'wraith_looping_def5':
+material ,ei/gfx_gel_splat_string_em has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_lid_drips.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_lid_drips' segment 'wraith_looping_def1':
+material ,ei/gfx_gel_splat_string_em has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_lid_drips.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'harry/chaos_box/fx_chaos_box_lid_drips' segment 'wraith_looping_def5':
+material ,ei/gfx_gel_splat_string_em has an invalid atlas, 0 x 0
+  fx:harry/chaos_box/fx_chaos_box_lid_drips.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_amb_base' segment 'wraith_looping_def2':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_amb_base.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_amb_base' segment 'wraith_looping_def3':
+material ei/gfx_light_ray_wide_em_nocull has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_amb_base.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_amb_base' segment 'wraith_looping_def5':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_amb_base.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_amb_base' segment 'wraith_looping_def2':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_amb_base.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_amb_base' segment 'wraith_looping_def3':
+material ei/gfx_light_ray_wide_em_nocull has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_amb_base.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_amb_base' segment 'wraith_looping_def5':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_amb_base.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_open' segment 'wraith_looping_def6':
+material ei/gfx_gradient_hill_steep_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_open' segment 'wraith_looping_def7':
+material ei/gfx_gradient_hill_steep_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_open' segment 'wraith_looping_def8':
+material ei/gfx_gradient_hill_steep_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_open' segment 'wraith_looping_def9':
+material ei/gfx_gradient_hill_steep_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_open' segment 'wraith_looping_def6':
+material ei/gfx_gradient_hill_steep_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_open' segment 'wraith_looping_def7':
+material ei/gfx_gradient_hill_steep_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_open' segment 'wraith_looping_def8':
+material ei/gfx_gradient_hill_steep_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_open' segment 'wraith_looping_def9':
+material ei/gfx_gradient_hill_steep_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_open.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_portal' segment 'wraith_looping_def9':
+material ec/gfx_spark_blink_anim_pcloud_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_portal.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_portal' segment 'wraith_looping_def22':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_portal.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_portal' segment 'wraith_looping_def25':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_portal.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_portal' segment 'wraith_looping_def9':
+material ec/gfx_spark_blink_anim_pcloud_em has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_portal.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_portal' segment 'wraith_looping_def22':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_portal.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'dlc5/tomb/fx_tomb_magicbox_portal' segment 'wraith_looping_def25':
+material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
+  fx:dlc5/tomb/fx_tomb_magicbox_portal.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'zombie/fx_weapon_box_marker_genesis' segment 'wraith_looping_def19':
+material ,ei/gfx_light_incandescent_hot_em_i128 has an invalid atlas, 0 x 0
+  fx:zombie/fx_weapon_box_marker_genesis.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3effect 'zombie/fx_weapon_box_marker_genesis' segment 'wraith_looping_def19':
+material ,ei/gfx_light_incandescent_hot_em_i128 has an invalid atlas, 0 x 0
+  fx:zombie/fx_weapon_box_marker_genesis.efx
+    csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^3Found 3 bad bulletmeshes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_goldendragon/zone_source/all/assetinfo/zm_goldendragon_bulletreport.csv file.

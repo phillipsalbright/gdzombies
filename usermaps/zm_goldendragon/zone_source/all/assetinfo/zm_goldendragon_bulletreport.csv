@@ -1,9 +1,15 @@
 xmodel,avgArea (min 50.0),triCount (max 0),dimX,dimY,dimZ,volume,refs
+p8_anim_zm_chaos_magic_box_skull,0.11,8694,8.30,11.10,10.52,968.99,1
+p7_zm_zod_magic_box_tentacle_teddy,0.45,6239,18.23,15.50,29.06,8211.01,1
+p8_anim_zm_al_magic_box_lock_red,0.24,3009,10.04,3.23,14.63,474.22,1
 p7_zm_vending_packapunch,41.29,737,85.53,48.12,86.44,355755.25,1
 p7_zm_vending_packapunch_on,41.29,737,85.53,48.12,86.44,355755.25,1
 p7_chair_stool_diner,11.59,112,19.97,19.97,31.73,12650.01,3
+p7_zm_ori_magic_box_base_light_on_green,0.09,100,3.40,1.30,3.14,13.89,1
+p7_zm_ori_magic_box_base_light_on_red,0.09,100,3.40,1.30,3.14,13.89,1
 p7_zm_der_pswitch_handle,8.56,44,18.42,4.44,25.20,2060.67,1
 c_zom_der_zombie_helmet1,7.07,32,10.01,10.56,9.27,979.39,1
+p7_zm_der_magic_box_fake,28.14,20,12.97,10.80,14.06,1970.22,1
 c_zom_zod_zombie_fem_body1_g_rarmspawn,1.62,16,10.08,4.44,4.24,189.80,1
 p7_gib_chunk_meat_01,4.31,16,2.61,7.35,8.75,167.67,1
 p7_gib_chunk_meat_02,3.93,16,4.00,7.68,5.48,168.48,1
