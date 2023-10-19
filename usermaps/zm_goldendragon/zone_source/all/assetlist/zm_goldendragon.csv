@@ -1244,8 +1244,11 @@ material,vdd/gfx_decal_blood_spray_01
 material,vdd/gfx_decal_blood_spray_01|dup
 material,vdd/gfx_decal_blood_spray_02
 material,vdd/gfx_decal_blood_spray_02|dup
+material,wc/floortilemat
 material,wc/script_floor_ceiling
 material,wc/script_wall
+material,wc/t7_brick_irregular_worn_02_wet
+material,wc/t7_zm_chalk_buy_bowie
 material,wc/t7_zm_chalk_buy_krm
 techset,mc/default#e6142445
 techset,mc/emissive_add#e6142445
@@ -1358,6 +1361,7 @@ image,i_c_zom_zod_zombie_fem_body_1_skin_n
 image,i_c_zom_zod_zombie_fem_boots_c
 image,i_c_zom_zod_zombie_fem_boots_g
 image,i_c_zom_zod_zombie_fem_boots_n
+image,i_floortex
 image,i_material_c
 image,i_mtl_p7_box_wood_metal_c
 image,i_mtl_p7_box_wood_metal_g
@@ -1464,6 +1468,8 @@ image,i_mtl_p7_zm_vending_pap_top_s
 image,i_p7_box_wood_wood_m
 image,i_p7_zm_teddybear_c
 image,i_p7_zm_teddybear_n
+image,i_t7_brick_irregular_worn_02_c
+image,i_t7_brick_irregular_worn_02_wet_n
 image,i_t7_cloth_leather_white_c
 image,i_t7_decal_blood_spray_01_c
 image,i_t7_decal_blood_spray_01_dry_g
@@ -1515,6 +1521,7 @@ image,i_t7_wood_plywood_dirty_c
 image,i_t7_wood_plywood_trim_dirty_c
 image,i_t7_wood_plywood_trim_n
 image,i_t7_wood_worn_brown_n
+image,i_t7_zm_chalk_buy_bowie_c
 image,i_t7_zm_chalk_buy_krm_c
 image,i_t7_zm_decal_logo_935_c
 image,img_luts_curve_blend
