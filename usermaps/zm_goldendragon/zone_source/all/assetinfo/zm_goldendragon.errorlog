@@ -1,4 +1,4 @@
-return 14065000
+return 14066000
 ^1ERROR: Material t7_wood_beam_worn_oak_bleached was not found in gdtDB
   material:mc/t7_wood_beam_worn_oak_bleached
     xmodel:p7_zm_zod_door_smashed_zombie_entrance
@@ -57,6 +57,9 @@ return 14065000
   xmodel:p7_zm_zod_magic_box_tentacle_teddy
     csv:hb21_mystery_boxes.zpkg
       csv:zone_source/zm_goldendragon.zone
+^3WARNING: "zmcore_bgb_machine" is not a valid zbarrier
+  zbarrier:zmcore_bgb_machine
+    col_map:maps/zm/zm_goldendragon.d3dbsp
 ^3effect 'harry/chaos_box/fx_chaos_box_closed_glow' segment 'wraith_looping_def5 copy':
 material ei/gfx_light_incandescent_hot_lg has an invalid atlas, 0 x 0
   fx:harry/chaos_box/fx_chaos_box_closed_glow.efx

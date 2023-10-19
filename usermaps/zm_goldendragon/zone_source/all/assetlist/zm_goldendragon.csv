@@ -757,6 +757,7 @@ xmodel,p8_anim_zm_al_magic_box_lock_red
 xmodel,p8_anim_zm_chaos_magic_box_skull
 xmodel,skybox_default_black
 xmodel,skybox_default_day
+xmodel,soda_machine
 xmodelmesh,c_c_zom_der_hellhound_lod06853f3e4
 xmodelmesh,c_c_zom_der_hellhound_lod11b9d2cd4
 xmodelmesh,c_c_zom_der_hellhound_lod2667ec587
@@ -1097,6 +1098,7 @@ xmodelmesh,p7_zm_zod_door_smashed_zombie_entrance_lod4dfeec0aa
 xmodelmesh,p7_zm_zod_magic_box_tentacle_teddyb54f1fcd
 xmodelmesh,p8_anim_zm_al_magic_box_lock_reda50aae8e
 xmodelmesh,p8_anim_zm_chaos_magic_box_skull2caab473
+xmodelmesh,sodamachine129c5a8c
 xmodelmesh,t6_skyboxfb7b39d6
 material,ei/gfx_dust_heli_swirl_anim_em
 material,ei/gfx_dust_heli_swirl_anim_em|dup
@@ -1208,6 +1210,7 @@ material,mc/mtl_p7_zm_vending_pap_top
 material,mc/mtl_p7_zm_vending_pap_top_main
 material,mc/mtl_skybox_default_black
 material,mc/mtl_skybox_default_day
+material,mc/sodamat
 material,mc/t7_decal_damage_plywood_edge_dirty
 material,mc/t7_decal_damage_wood_splinter_01
 material,mc/t7_metal_chainlink
@@ -1247,6 +1250,7 @@ material,vdd/gfx_decal_blood_spray_02|dup
 material,wc/floortilemat
 material,wc/script_floor_ceiling
 material,wc/script_wall
+material,wc/shadowcaster
 material,wc/t7_brick_irregular_worn_02_wet
 material,wc/t7_zm_chalk_buy_bowie
 material,wc/t7_zm_chalk_buy_krm
@@ -1270,6 +1274,7 @@ techset,mc/sky_hdr#e6142445
 techset,mc/sky_latlong_hdr#e6142445
 techset,wc/lit#882572b8
 techset,wc/lit_emissive_scroll_transparent#882572b8
+techset,wc/shadowcaster#882572b8
 image,$thickness
 image,core_script_floor_ceiling_c
 image,core_script_wall_c
@@ -1468,6 +1473,9 @@ image,i_mtl_p7_zm_vending_pap_top_s
 image,i_p7_box_wood_wood_m
 image,i_p7_zm_teddybear_c
 image,i_p7_zm_teddybear_n
+image,i_sodamat_c
+image,i_sodamat_emissive
+image,i_sodamat_n
 image,i_t7_brick_irregular_worn_02_c
 image,i_t7_brick_irregular_worn_02_wet_n
 image,i_t7_cloth_leather_white_c
@@ -1527,6 +1535,7 @@ image,i_t7_zm_decal_logo_935_c
 image,img_luts_curve_blend
 image,p6_zm_barricade_board_upgrade_c
 image,p6_zm_barricade_board_upgrade_n
+image,shadow
 image,skybox_default_black
 image,skybox_default_day_ft
 image,t7_cp_hud_tacmode_type_amws

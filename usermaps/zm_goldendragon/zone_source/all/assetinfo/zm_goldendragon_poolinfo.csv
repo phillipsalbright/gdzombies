@@ -3,12 +3,12 @@ physpreset,276,1
 physconstraints,159,0
 destructibledef,128,0
 xanim,25000,701
-xmodel,10240,74
-xmodelmesh,34816,356
-material,20480,317
+xmodel,10240,75
+xmodelmesh,34816,357
+material,20480,319
 computeshaderset,256,0
-techset,1024,55
-image,49152,460
+techset,1024,56
+image,49152,464
 sound,32,1
 sound_patch,16,0
 col_map,2,1
