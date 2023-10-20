@@ -1250,7 +1250,6 @@ material,vdd/gfx_decal_blood_spray_02|dup
 material,wc/floortilemat
 material,wc/script_floor_ceiling
 material,wc/script_wall
-material,wc/shadowcaster
 material,wc/t7_brick_irregular_worn_02_wet
 material,wc/t7_zm_chalk_buy_bowie
 material,wc/t7_zm_chalk_buy_krm
@@ -1274,7 +1273,6 @@ techset,mc/sky_hdr#e6142445
 techset,mc/sky_latlong_hdr#e6142445
 techset,wc/lit#882572b8
 techset,wc/lit_emissive_scroll_transparent#882572b8
-techset,wc/shadowcaster#882572b8
 image,$thickness
 image,core_script_floor_ceiling_c
 image,core_script_wall_c
@@ -1535,7 +1533,6 @@ image,i_t7_zm_decal_logo_935_c
 image,img_luts_curve_blend
 image,p6_zm_barricade_board_upgrade_c
 image,p6_zm_barricade_board_upgrade_n
-image,shadow
 image,skybox_default_black
 image,skybox_default_day_ft
 image,t7_cp_hud_tacmode_type_amws

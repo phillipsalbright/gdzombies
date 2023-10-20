@@ -5,7 +5,7 @@ iwmap 4
 "The Map" flags expanded 
 // entity 0
 {
-guid "{FB4AA3D9-6C6A-11EE-9CFE-10683840FFFE}"
+guid "{198BFA2F-6EDB-11EE-9CFF-10683840FFFE}"
 "classname" "worldspawn"
 "lightingquality" "1024"
 "samplescale" "1"
@@ -1484,19 +1484,6 @@ guid "{B7FF55EC-9D74-4C60-A68D-F8DA431115E2}"
 }
 // entity 64
 {
-guid "{3B1CC0A6-6E45-11EE-9CFF-10683840FFFE}"
-"classname" "misc_model"
-"model" "soda_machine"
-"modelscale" "35"
-"origin" "-344 -841 78.5"
-"lightingstate1" "1"
-"lightingstate2" "1"
-"lightingstate3" "1"
-"lightingstate4" "1"
-"static" "1"
-}
-// entity 65
-{
 guid "{612E1062-6E45-11EE-9CFF-10683840FFFE}"
 "classname" "light"
 "ENABLE_FALLOFF" "0"
@@ -1533,83 +1520,102 @@ guid "{612E1062-6E45-11EE-9CFF-10683840FFFE}"
 "volumetricSampleCount" "8"
 "spawnflags" "20"
 }
-// entity 66
-{
-guid "{612E1077-6E45-11EE-9CFF-10683840FFFE}"
-"classname" "script_struct"
-"angles" "0 90 0"
-"origin" "-398 -824.5 28.5"
-"script_int" "2"
-"script_noteworthy" "attack_spot"
-"targetname" "auto1"
-"_color" "1 0 0"
-}
-// entity 67
-{
-guid "{612E105F-6E45-11EE-9CFF-10683840FFFE}"
-"classname" "script_struct"
-"model" ""
-"origin" "-342.5 -822 64.5"
-"script_noteworthy" "specialty_armorvest"
-"target" "auto1"
-"targetname" "zm_perk_machine"
-"_color" "1 0 0"
-}
-// entity 68
+// entity 65
 {
 guid "{D6C754D9-6E47-11EE-9CFF-10683840FFFE}"
 "classname" "misc_prefab"
 "model" "_prefabs/zm/zm_core/vending_doubletap_struct.map"
 "origin" "-922 -436 150.5"
 }
-// entity 69
+// entity 66
 {
 guid "{EC5DD12D-6E47-11EE-9CFF-10683840FFFE}"
 "classname" "misc_prefab"
 "model" "_prefabs/zm/zm_core/vending_bgb_struct.map"
 "origin" "-1127 -471 150.5"
 }
+// entity 67
+{
+guid "{3B1CC0A6-6E45-11EE-9CFF-10683840FFFE}"
+"classname" "misc_model"
+"model" "soda_machine"
+"modelscale" "35"
+"origin" "-344 -841 78.5"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"static" "1"
+}
+// entity 68
+{
+guid "{F199590A-6EAB-11EE-9CFF-10683840FFFE}"
+"classname" "trigger_use_touch"
+"targetname" "jugg_loc_bmt"
+"_color" "0.3 0.5 0.8"
+"cursorhint" "HINT_ACTIVATE"
+// brush 0
+{
+ guid "{F1995909-6EAB-11EE-9CFF-10683840FFFE}"
+ ( -363 -818.5 4.5 ) ( -375.75 -818.5 4.5 ) ( -375.75 -825 4.5 ) trigger 64 64 -1 -6 0 0 lightmap_gray 16384 16384 82.5 -33.5 0 0
+ ( -373 -825 96 ) ( -373 -818.5 96 ) ( -360 -818.5 96 ) trigger 64 64 0 -6 0 0 lightmap_gray 16384 16384 84.5 -33.5 0 0
+ ( -373 -825 96 ) ( -360 -825 96 ) ( -360 -825 80 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 84.5 -76 0 0
+ ( -360 -825 96 ) ( -360 -818.5 96 ) ( -360 -818.5 80 ) trigger 64 64 6 0 0 0 lightmap_gray 16384 16384 33.5 -76 0 0
+ ( -360 -820.75 96.5 ) ( -373 -820.75 96.5 ) ( -373 -820.75 80.5 ) trigger 64 64 0 -0.5 0 0 lightmap_gray 16384 16384 84.5 -76.5 0 0
+ ( -404 -818.5 96.5 ) ( -404 -825 96.5 ) ( -404 -825 80.5 ) trigger 64 64 6 -0.5 0 0 lightmap_gray 16384 16384 33.5 -76.5 0 0
+}
+}
+// entity 69
+{
+guid "{E97B3195-6EDA-11EE-9CFF-10683840FFFE}"
+"classname" "trigger_use_touch"
+"targetname" "speed_loc_bmt"
+"_color" "0.3 0.5 0.8"
+"cursorhint" "HINT_ACTIVATE"
+// brush 0
+{
+ guid "{E97B3194-6EDA-11EE-9CFF-10683840FFFE}"
+ ( -363 -808.75 4.5 ) ( -375.75 -808.75 4.5 ) ( -375.75 -815.25 4.5 ) trigger 64 64 -1 -20.5 0 0 lightmap_gray 16384 16384 82.5 -48 0 0
+ ( -373 -815.25 96 ) ( -373 -808.75 96 ) ( -360 -808.75 96 ) trigger 64 64 0 -20.5 0 0 lightmap_gray 16384 16384 84.5 -48 0 0
+ ( -373 -815.25 96 ) ( -360 -815.25 96 ) ( -360 -815.25 80 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 84.5 -76 0 0
+ ( -360 -815.25 96 ) ( -360 -808.75 96 ) ( -360 -808.75 80 ) trigger 64 64 20.5 0 0 0 lightmap_gray 16384 16384 48 -76 0 0
+ ( -360 -811 96.5 ) ( -373 -811 96.5 ) ( -373 -811 80.5 ) trigger 64 64 0 -0.5 0 0 lightmap_gray 16384 16384 84.5 -76.5 0 0
+ ( -404 -808.75 96.5 ) ( -404 -815.25 96.5 ) ( -404 -815.25 80.5 ) trigger 64 64 20.5 -0.5 0 0 lightmap_gray 16384 16384 48 -76.5 0 0
+}
+}
 // entity 70
 {
-guid "{203EB9DA-6E48-11EE-9CFF-10683840FFFE}"
-"classname" "script_struct"
-"model" ""
-"origin" "-341 -816 150.5"
-"script_noteworthy" "specialty_fastreload"
-"target" "auto2"
-"targetname" "zm_perk_machine"
-"_color" "1 0 0"
+guid "{00396580-6EDB-11EE-9CFF-10683840FFFE}"
+"classname" "trigger_use_touch"
+"targetname" "double_tap_loc"
+"_color" "0.3 0.5 0.8"
+"cursorhint" "HINT_ACTIVATE"
+// brush 0
+{
+ guid "{0039657F-6EDB-11EE-9CFF-10683840FFFE}"
+ ( -363 -846.5 4.5 ) ( -375.75 -846.5 4.5 ) ( -375.75 -853 4.5 ) trigger 64 64 -1 36 0 0 lightmap_gray 16384 16384 82.5 8.5 0 0
+ ( -373 -853 96 ) ( -373 -846.5 96 ) ( -360 -846.5 96 ) trigger 64 64 0 36 0 0 lightmap_gray 16384 16384 84.5 8.5 0 0
+ ( -373 -853 96 ) ( -360 -853 96 ) ( -360 -853 80 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 84.5 -76 0 0
+ ( -360 -853 96 ) ( -360 -846.5 96 ) ( -360 -846.5 80 ) trigger 64 64 -36 0 0 0 lightmap_gray 16384 16384 -8.5 -76 0 0
+ ( -360 -848.75 96.5 ) ( -373 -848.75 96.5 ) ( -373 -848.75 80.5 ) trigger 64 64 0 -0.5 0 0 lightmap_gray 16384 16384 84.5 -76.5 0 0
+ ( -404 -846.5 96.5 ) ( -404 -853 96.5 ) ( -404 -853 80.5 ) trigger 64 64 -36 -0.5 0 0 lightmap_gray 16384 16384 -8.5 -76.5 0 0
+}
 }
 // entity 71
 {
-guid "{203EBA01-6E48-11EE-9CFF-10683840FFFE}"
-"classname" "script_struct"
-"angles" "0 90 0"
-"origin" "-398 -810 29.5"
-"script_int" "1"
-"script_noteworthy" "attack_spot"
-"targetname" "auto2"
-"_color" "1 0 0"
-}
-// entity 72
+guid "{198BFA35-6EDB-11EE-9CFF-10683840FFFE}"
+"classname" "trigger_use_touch"
+"targetname" "quick_rev"
+"_color" "0.3 0.5 0.8"
+"cursorhint" "HINT_ACTIVATE"
+// brush 0
 {
-guid "{564EDF18-6E48-11EE-9CFF-10683840FFFE}"
-"classname" "script_struct"
-"model" ""
-"origin" "-342.5 -836.5 150.5"
-"script_noteworthy" "specialty_quickrevive"
-"target" "auto3"
-"targetname" "zm_perk_machine"
-"_color" "1 0 0"
+ guid "{198BFA34-6EDB-11EE-9CFF-10683840FFFE}"
+ ( -363 -827.5 4.5 ) ( -375.75 -827.5 4.5 ) ( -375.75 -834 4.5 ) trigger 64 64 -1 7.5 0 0 lightmap_gray 16384 16384 82.5 -20 0 0
+ ( -373 -834 96 ) ( -373 -827.5 96 ) ( -360 -827.5 96 ) trigger 64 64 0 7.5 0 0 lightmap_gray 16384 16384 84.5 -20 0 0
+ ( -373 -834 96 ) ( -360 -834 96 ) ( -360 -834 80 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 84.5 -76 0 0
+ ( -360 -834 96 ) ( -360 -827.5 96 ) ( -360 -827.5 80 ) trigger 64 64 -7.5 0 0 0 lightmap_gray 16384 16384 20 -76 0 0
+ ( -360 -829.75 96.5 ) ( -373 -829.75 96.5 ) ( -373 -829.75 80.5 ) trigger 64 64 0 -0.5 0 0 lightmap_gray 16384 16384 84.5 -76.5 0 0
+ ( -404 -827.5 96.5 ) ( -404 -834 96.5 ) ( -404 -834 80.5 ) trigger 64 64 -7.5 -0.5 0 0 lightmap_gray 16384 16384 20 -76.5 0 0
 }
-// entity 73
-{
-guid "{564EDF2A-6E48-11EE-9CFF-10683840FFFE}"
-"classname" "script_struct"
-"angles" "0 90 0"
-"origin" "-398 -838 29"
-"script_int" "1"
-"script_noteworthy" "attack_spot"
-"targetname" "auto3"
-"_color" "1 0 0"
 }
