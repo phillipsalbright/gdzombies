@@ -86,6 +86,15 @@ function usermap_test_zone_init()
 {
 	level flag::init( "always_on" );
 	level flag::set( "always_on" );
+
+	zm_zonemgr::add_adjacent_zone("start_zone", "zone_2", "activate_zone_2");
+	zm_zonemgr::add_adjacent_zone("start_zone", "zone_6", "activate_zone_6");
+	zm_zonemgr::add_adjacent_zone("zone_6", "zone_5", "activate_zone_5");
+	zm_zonemgr::add_adjacent_zone("zone_5", "zone_6", "activate_zone_6b");
+	zm_zonemgr::add_adjacent_zone("zone_5", "zone_2", "activate_zone_2b");
+	zm_zonemgr::add_adjacent_zone("zone_2", "zone_5", "activate_zone_5b");
+	zm_zonemgr::add_adjacent_zone("zone_2", "zone_3", "activate_zone_3");
+	zm_zonemgr::add_adjacent_zone("zone_2", "zone_4", "activate_zone_4");
 }	
 
 function custom_add_weapons()
