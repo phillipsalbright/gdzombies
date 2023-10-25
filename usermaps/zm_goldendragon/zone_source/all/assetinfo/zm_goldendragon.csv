@@ -2023,7 +2023,7 @@ index,type,name,resident,streamed,parentStack
 2022,material,wc/t7_zm_chalk_buy_krm,1580,0,|maps/zm/zm_goldendragon.d3dbsp|gfx_map|zone_source/zm_goldendragon.zone|csv
 2023,image,i_t7_zm_chalk_buy_bowie_c,282,720896,|wc/t7_zm_chalk_buy_bowie|material|maps/zm/zm_goldendragon.d3dbsp|gfx_map|zone_source/zm_goldendragon.zone|csv
 2024,material,wc/t7_zm_chalk_buy_bowie,1030,0,|maps/zm/zm_goldendragon.d3dbsp|gfx_map|zone_source/zm_goldendragon.zone|csv
-2025,shadowTrees,maps/zm/zm_goldendragon.d3dbsp,476,1065732,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
+2025,shadowTrees,maps/zm/zm_goldendragon.d3dbsp,476,1144528,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
 2026,shadowTrees,maps/zm/zm_goldendragon.d3dbsp,10400,0,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
 2027,shadowTrees,maps/zm/zm_goldendragon.d3dbsp,0,0,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
 2028,shadowTrees,maps/zm/zm_goldendragon.d3dbsp,0,0,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
@@ -2037,7 +2037,7 @@ index,type,name,resident,streamed,parentStack
 2036,image,volume0_state1_reflection_probes_bbe52043,42,0,|maps/zm/zm_goldendragon.d3dbsp|reflectionProbes
 2037,image,volume0_state2_reflection_probes_bbe52043,42,0,|maps/zm/zm_goldendragon.d3dbsp|reflectionProbes
 2038,image,volume0_state3_reflection_probes_bbe52043,42,0,|maps/zm/zm_goldendragon.d3dbsp|reflectionProbes
-2039,reflectionProbes,maps/zm/zm_goldendragon.d3dbsp,3516,4198892,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
+2039,reflectionProbes,maps/zm/zm_goldendragon.d3dbsp,3516,4251168,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
 2040,image,volume0_state0_probe_x_texture_bbe52043,40,0,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
 2041,image,volume0_state0_probe_y_texture_bbe52043,40,0,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes
 2042,image,volume0_state0_probe_z_texture_bbe52043,40,0,|maps/zm/zm_goldendragon.d3dbsp|sunVolumes

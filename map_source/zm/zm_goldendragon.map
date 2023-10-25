@@ -2118,3 +2118,71 @@ guid "{85B14A53-6FF0-11EE-87DC-D45DDF0B7C90}"
 "lightingstate4" "1"
 "static" "1"
 }
+// entity 98
+{
+guid "{58C03C42-7305-11EE-87DC-D45DDF0B7C90}"
+"classname" "misc_model"
+"model" "gdchair1"
+"modelscale" "50"
+"origin" "-530.5 -833 34"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"static" "1"
+}
+// entity 99
+{
+guid "{71E6E7F9-7305-11EE-87DC-D45DDF0B7C90}"
+"classname" "misc_model"
+"angles" "0 90 0"
+"model" "napkins"
+"modelscale" "50"
+"origin" "-524 -1100 107.5"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"static" "1"
+}
+// entity 100
+{
+guid "{71E6E7F3-7305-11EE-87DC-D45DDF0B7C90}"
+"classname" "misc_model"
+"angles" "0 270 0"
+"model" "booth_chair1"
+"modelscale" "50"
+"origin" "-462 -1089.5 52"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"static" "1"
+}
+// entity 101
+{
+guid "{6B1CA189-7305-11EE-87DC-D45DDF0B7C90}"
+"classname" "misc_model"
+"angles" "0 90 0"
+"model" "booth_chair2"
+"modelscale" "50"
+"origin" "-642 -1092 52"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"static" "1"
+}
+// entity 102
+{
+guid "{6B1CA180-7305-11EE-87DC-D45DDF0B7C90}"
+"classname" "misc_model"
+"model" "booth_table"
+"modelscale" "50"
+"origin" "-525 -1088 82.5"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"static" "1"
+}
