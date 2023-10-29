@@ -1,4 +1,8 @@
-return 7066000
+return 8066000
+^1ERROR: 'water_cooler_bottle' is not a valid physpreset asset
+  physpreset:water_cooler_bottle
+    xmodel:nt_2020_cardboardbox
+      col_map:maps/zm/zm_goldendragon.d3dbsp
 ^1ERROR: Material gfx_light_incandescent_hot_lg was not found in gdtDB
   material:ei/gfx_light_incandescent_hot_lg
     fx:harry/chaos_box/fx_chaos_box_closed_glow.efx
@@ -359,4 +363,4 @@ material ,ei/gfx_light_incandescent_hot_em_i128 has an invalid atlas, 0 x 0
   fx:zombie/fx_weapon_box_marker_genesis.efx
     csv:hb21_mystery_boxes.zpkg
       csv:zone_source/zm_goldendragon.zone
-^3Found 6 bad bulletmeshes, dumped to D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_goldendragon/zone_source/all/assetinfo/zm_goldendragon_bulletreport.csv file.
+^3Found 11 bad bulletmeshes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_goldendragon/zone_source/all/assetinfo/zm_goldendragon_bulletreport.csv file.

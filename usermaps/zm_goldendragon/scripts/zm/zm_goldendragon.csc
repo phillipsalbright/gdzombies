@@ -20,7 +20,8 @@
 #using scripts\zm\_zm_perk_juggernaut;
 #using scripts\zm\_zm_perk_quick_revive;
 #using scripts\zm\_zm_perk_sleight_of_hand;
-#using scripts\zm\_zm_perk_staminup;
+#using scripts\zm\_zm_perk_widows_wine;
+#using scripts\zm\_zm_perk_electric_cherry;
 
 //Powerups
 #using scripts\zm\_zm_powerup_double_points;

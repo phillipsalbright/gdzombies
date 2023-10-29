@@ -36,7 +36,9 @@
 #using scripts\zm\_zm_perk_juggernaut;
 #using scripts\zm\_zm_perk_quick_revive;
 #using scripts\zm\_zm_perk_sleight_of_hand;
-#using scripts\zm\_zm_perk_staminup;
+#using scripts\zm\_zm_perk_widows_wine;
+#using scripts\zm\_zm_perk_electric_cherry;
+//#using scripts\zm\_zm_perk_staminup;
 #using scripts\zm\_zm_perks;
 
 //Powerups
@@ -106,21 +108,78 @@ function perk_threads()
 {
     // perk_trig, specialtyname, cost, string name
     quick_revive = GetEnt( "quick_rev", "targetname" );
-    quick_revive thread specialty_count_handler( "specialty_quickrevive", 1500, "^2Quick Revive^7" );
+    quick_revive thread specialty_count_handler( "specialty_quickrevive", 3000, "^2Quick Revive^7" );
+
+    quick_revive_damage = GetEnt("quick_rev_damage", "targetname");
+    quick_revive_damage thread perk_damage_handler("quick_rev", "quick_rev_light");
 
 	 IPrintLn("frogs3");
     //callback::on_connect(&notify_joined);
 
 	 IPrintLn("frog4");
-    thread perk_trig( "jugg_loc_bmt", "specialty_armorvest", 2500 , "^1Juggernog^7" );
-    thread perk_trig( "double_tap_loc", "specialty_doubletap2", 2000 , "^:Double Tap^7" );
-    thread perk_trig( "speed_loc_bmt", "specialty_fastreload", 3000, "^2Speed Cola^7" );
-   // thread perk_trig( "phd_loc_bmt", "specialty_phdflopper", 2500, "^8P.H.D Flopper^7" );
-    //thread perk_trig( "trail_loc_bmt", "specialty_immunenvthermal", 4000, "^1Trailblazers^7" );
-    //thread perk_trig( "staminup_loc_bmt", "specialty_staminup", 5000, "^3Stamin-up^7" );
-    //thread perk_trig( "vigor_loc_bmt", "specialty_directionalfire", 5000, "^9Vigor Rush^7" );
+    thread perk_trig( "jugg_loc_bmt", "specialty_armorvest", 4000 , "Juggernog" );
+    speed_cola_damage = GetEnt("jugg_damage", "targetname");
+    speed_cola_damage thread perk_damage_handler("jugg_loc_bmt", "jugg_light");
+   
+    thread perk_trig( "double_tap_loc", "specialty_doubletap2", 3500 , "Double Tap" );
+    speed_cola_damage = GetEnt("double_tap_damage", "targetname");
+    speed_cola_damage thread perk_damage_handler("double_tap_loc", "double_tap_light");
+    
+    thread perk_trig( "speed_loc_bmt", "specialty_fastreload", 4500, "Speed Cola" );
+    speed_cola_damage = GetEnt("speed_damage", "targetname");
+    speed_cola_damage thread perk_damage_handler("speed_loc_bmt", "speed_cola_light");
 
-	 IPrintLn("frogs5");
+    thread perk_trig( "mule_kick_loc", "specialty_additionalprimaryweapon", 5500, "Mule Kick" );
+    speed_cola_damage = GetEnt("mule_kick_damage", "targetname");
+    speed_cola_damage thread perk_damage_handler("mule_kick_loc", "mule_kick_light");
+
+    thread perk_trig( "widows_wine_loc", "specialty_widowswine", 5500, "Widow's Wine" );
+    speed_cola_damage = GetEnt("widows_wine_damage", "targetname");
+    speed_cola_damage thread perk_damage_handler("widows_wine_loc", "widows_wine_light");
+
+
+    thread perk_trig( "electric_cherry_loc", "specialty_electriccherry", 3500, "Electric Cherry" );
+    speed_cola_damage = GetEnt("electric_cherry_damage", "targetname");
+    speed_cola_damage thread perk_damage_handler("electric_cherry_loc", "electric_cherry_light");
+
+	thread soda_machine_info();
+}
+
+function perk_damage(perk_damage_trigger, perk_trigger)
+{
+	damagetrig = GetEnt(perk_damage_trigger, "targetname");
+	damagetrig thread perk_damage(perk_trigger);
+}
+
+function soda_machine_info()
+{
+	sodatrig = GetEnt("soda_machine", "targetname");
+	sodatrig SetHintString(&"ZOMBIE_NEED_POWER");
+	level waittill("power_on");
+	sodatrig SetHintString("hit a perk to activate");
+
+}
+
+function perk_damage_handler(perk_trigger, light_exploder_name)
+{
+
+    level waittill("power_on");
+	perktrig = GetEnt(perk_trigger, "targetname");
+	perktrig TriggerEnable(false);
+	for (;;)
+	{
+		self waittill("trigger", player);
+	 IPrintLn("frogs10111");
+		//enable perk
+		perktrig TriggerEnable(true);
+		exploder::exploder(light_exploder_name);
+		//perktrig = GetEnt(perk_trigger, "targetname");
+		wait 10;
+		perktrig TriggerEnable(false);
+		//disable perk
+
+		exploder::kill_exploder(light_exploder_name);
+	}
 }
 
 function perk_trig(perk_trigger, specialtyname, cost, name)
@@ -199,7 +258,9 @@ function specialty_count_handler ( specialtyname, cost, perkname )
 {
 	level endon ("disconnect");
     self UseTriggerRequireLookAt();
-
+    self TriggerEnable(false);
+    level waittill("power_on");
+    //self TriggerEnable(true);
 	self SetHintString("Press ^1[{+activate}]^7 to purchase " + perkname + "\n^7[ ^2Cost = ^7" + cost + " ^7]\n [ ^1Solo =  ^7" + int( cost / 3 ) + " ^7]");
 	self SetCursorHint("HINT_NOICON");
 
@@ -244,6 +305,7 @@ function specialty_count_handler ( specialtyname, cost, perkname )
 						player PlaySoundToPlayer( "zmb_cha_ching", player );					
 						player do_perk_buy( specialtyname, player );
 						player PlaySoundToPlayer("belch", player);
+						self SetIgnoreEntForTrigger(player);
 					//	thread devprint( " GAVE " + specialtyname + "" );
 					}
 					else
