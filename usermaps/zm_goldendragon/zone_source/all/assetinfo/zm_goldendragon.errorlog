@@ -1,7 +1,11 @@
-return 8066000
+return 9066000
 ^1ERROR: 'water_cooler_bottle' is not a valid physpreset asset
   physpreset:water_cooler_bottle
     xmodel:nt_2020_cardboardbox
+      col_map:maps/zm/zm_goldendragon.d3dbsp
+^1ERROR: 'p7_medical_surgical_tools_tray' is not a valid physpreset asset
+  physpreset:p7_medical_surgical_tools_tray
+    xmodel:p7_medical_surgical_tools_tray
       col_map:maps/zm/zm_goldendragon.d3dbsp
 ^1ERROR: Material gfx_light_incandescent_hot_lg was not found in gdtDB
   material:ei/gfx_light_incandescent_hot_lg
