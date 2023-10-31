@@ -1722,15 +1722,23 @@ material,mc/xmaterial_f6eab479a7a83a7
 material,mc/xmaterial_f6eac479a7a855a
 material,mc/xmaterial_f6ead479a7a870d
 material,vd/b2s_decal
+material,vd/beembo_decal
+material,vd/block_s_decal
+material,vd/gd_pixel_decal
 material,vd/gfx_decal_blood_spray_01
 material,vd/gfx_decal_blood_spray_01|dup
 material,vd/gfx_decal_blood_spray_02
 material,vd/gfx_decal_blood_spray_02|dup
+material,vd/godot_frog_decal
 material,vd/godot_pog_decal
 material,vd/golden_dragon_decal
 material,vd/makoa_decal
 material,vd/makoa_whenhehookyou_decal
+material,vd/menu_decal
 material,vd/ncsubanner_decal
+material,vd/omelette_decal
+material,vd/paladins_saturday_decal
+material,vd/vgdc_decal
 material,vdd/gfx_decal_blood_spray_01
 material,vdd/gfx_decal_blood_spray_01|dup
 material,vdd/gfx_decal_blood_spray_02
@@ -1741,7 +1749,6 @@ material,wc/global_diffuse_black
 material,wc/infinite_blackness
 material,wc/mtl_p7_zm_zod_train_subway_set_glass_01
 material,wc/nt_2020_wall_lt_blue
-material,wc/script_floor_ceiling
 material,wc/script_wall
 material,wc/t7_acrylic_red_flake
 material,wc/t7_brick_herringbone_dirty_01
@@ -1750,6 +1757,7 @@ material,wc/t7_cai_street_sidewalk_old_04_red
 material,wc/t7_concrete_bare_dark_03
 material,wc/t7_drywall_painted_blue_drk_01
 material,wc/t7_metal_bare_silver_polished
+material,wc/t7_metal_bare_tin_polished
 material,wc/t7_metal_ceiling_panels
 material,wc/t7_plaster_wallpaper_pattern_02
 material,wc/t7_ven_ceiling_panel_6x6
@@ -1795,7 +1803,7 @@ techset,wc/lit_emissive_scroll_transparent#882572b8
 techset,wc/lit_plus#882572b8
 image,$black_thickness
 image,$thickness
-image,core_script_floor_ceiling_c
+image,black
 image,core_script_wall_c
 image,fxt_dust_light
 image,fxt_fire_inferno_tall_thin_1_anim
@@ -1817,6 +1825,7 @@ image,i_b2s_decal_c
 image,i_beembo_trash_c
 image,i_black_cushion_c
 image,i_black_cushion_n
+image,i_block_s_decal_c
 image,i_c_gen_gib_blood_splatters_c
 image,i_c_gen_gib_blood_splatters_g
 image,i_c_gen_head_r
@@ -1936,6 +1945,8 @@ image,i_deciduous_cherry_wood_n
 image,i_faux_leather_c
 image,i_faux_leather_n
 image,i_floortex
+image,i_gd_pixel_decal_c
+image,i_godot_frog_decal_c
 image,i_godot_pog_emote
 image,i_golden_dragon_decal_c
 image,i_light_wood_c
@@ -1944,6 +1955,7 @@ image,i_makoa_decal_c
 image,i_makoa_whenhehookyou_decal_c
 image,i_maple_c
 image,i_maple_n
+image,i_menu_decal_c
 image,i_mtl_p7_3arc_lobby_plant_leaf_c
 image,i_mtl_p7_3arc_lobby_plant_leaf_n
 image,i_mtl_p7_3arc_lobby_plant_leaf_t
@@ -2152,6 +2164,7 @@ image,i_napkins_n
 image,i_ncsubanner_decal_c
 image,i_oak_natural_c
 image,i_oak_natural_n
+image,i_omelette_decal_c
 image,i_p7_box_wood_wood_m
 image,i_p7_cai_dni_console_decal_01_c
 image,i_p7_cai_dni_console_dirt02_c
@@ -2188,6 +2201,7 @@ image,i_p7_door_wood_global_01_n
 image,i_p7_door_wood_global_01_o
 image,i_p7_zm_teddybear_c
 image,i_p7_zm_teddybear_n
+image,i_paladins_saturday_decal_c
 image,i_polyester_fabric_c
 image,i_polyester_fabric_n
 image,i_rubber_black_n
@@ -2359,6 +2373,7 @@ image,i_t7_zm_chalk_buy_triton_c
 image,i_t7_zm_chalk_buy_vmp_c
 image,i_t7_zm_decal_logo_935_c
 image,i_tolltroll_c
+image,i_vgdc_decal_c
 image,i_wood_table_c
 image,i_wood_table_n
 image,img_luts_curve_blend

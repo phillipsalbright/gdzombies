@@ -81,7 +81,11 @@ function main()
 	 level.start_weapon = (weapon);//Starting Weapon
 	 IPrintLn("frogs");
 	 level thread perk_threads();
-	 IPrintLn("frogs2");
+
+	 level thread free_sode_ee();
+	 foreach (player in GetPlayers()) {
+	 	player zm_score::add_to_player_score(50000);
+	 }
 }
 
 function usermap_test_zone_init()
@@ -108,7 +112,7 @@ function perk_threads()
 {
     // perk_trig, specialtyname, cost, string name
     quick_revive = GetEnt( "quick_rev", "targetname" );
-    quick_revive thread specialty_count_handler( "specialty_quickrevive", 3000, "^2Quick Revive^7" );
+    quick_revive thread specialty_count_handler( "specialty_quickrevive", 1500, "Quick Revive" );
 
     quick_revive_damage = GetEnt("quick_rev_damage", "targetname");
     quick_revive_damage thread perk_damage_handler("quick_rev", "quick_rev_light");
@@ -117,28 +121,28 @@ function perk_threads()
     //callback::on_connect(&notify_joined);
 
 	 IPrintLn("frog4");
-    thread perk_trig( "jugg_loc_bmt", "specialty_armorvest", 4000 , "Juggernog" );
+    thread perk_trig( "jugg_loc_bmt", "specialty_armorvest", 2500 , "Juggernog" );
     speed_cola_damage = GetEnt("jugg_damage", "targetname");
     speed_cola_damage thread perk_damage_handler("jugg_loc_bmt", "jugg_light");
    
-    thread perk_trig( "double_tap_loc", "specialty_doubletap2", 3500 , "Double Tap" );
+    thread perk_trig( "double_tap_loc", "specialty_doubletap2", 2000 , "Double Tap" );
     speed_cola_damage = GetEnt("double_tap_damage", "targetname");
     speed_cola_damage thread perk_damage_handler("double_tap_loc", "double_tap_light");
     
-    thread perk_trig( "speed_loc_bmt", "specialty_fastreload", 4500, "Speed Cola" );
+    thread perk_trig( "speed_loc_bmt", "specialty_fastreload", 3000, "Speed Cola" );
     speed_cola_damage = GetEnt("speed_damage", "targetname");
     speed_cola_damage thread perk_damage_handler("speed_loc_bmt", "speed_cola_light");
 
-    thread perk_trig( "mule_kick_loc", "specialty_additionalprimaryweapon", 5500, "Mule Kick" );
+    thread perk_trig( "mule_kick_loc", "specialty_additionalprimaryweapon", 4000, "Mule Kick" );
     speed_cola_damage = GetEnt("mule_kick_damage", "targetname");
     speed_cola_damage thread perk_damage_handler("mule_kick_loc", "mule_kick_light");
 
-    thread perk_trig( "widows_wine_loc", "specialty_widowswine", 5500, "Widow's Wine" );
+    thread perk_trig( "widows_wine_loc", "specialty_widowswine", 4000, "Widow's Wine" );
     speed_cola_damage = GetEnt("widows_wine_damage", "targetname");
     speed_cola_damage thread perk_damage_handler("widows_wine_loc", "widows_wine_light");
 
 
-    thread perk_trig( "electric_cherry_loc", "specialty_electriccherry", 3500, "Electric Cherry" );
+    thread perk_trig( "electric_cherry_loc", "specialty_electriccherry", 2500, "Electric Cherry" );
     speed_cola_damage = GetEnt("electric_cherry_damage", "targetname");
     speed_cola_damage thread perk_damage_handler("electric_cherry_loc", "electric_cherry_light");
 
@@ -169,7 +173,6 @@ function perk_damage_handler(perk_trigger, light_exploder_name)
 	for (;;)
 	{
 		self waittill("trigger", player);
-	 IPrintLn("frogs10111");
 		//enable perk
 		perktrig TriggerEnable(true);
 		exploder::exploder(light_exploder_name);
@@ -184,27 +187,19 @@ function perk_damage_handler(perk_trigger, light_exploder_name)
 
 function perk_trig(perk_trigger, specialtyname, cost, name)
 {
-	 IPrintLn("frogs6");
 	perktrig = GetEnt(perk_trigger, "targetname");
 	 perktrig thread perk_handler(specialtyname, cost, name);
 
-	 IPrintLn("frogs7");
 }
 
 function perk_handler( specialtyname, cost, perkname )
 {
-	 IPrintLn("frog8");
     self SetHintString(&"ZOMBIE_NEED_POWER");
     self SetCursorHint("HINT_NOICON");
     //self UseTriggerRequireLookAt();
     
-	 IPrintLn("frogs9");
     level waittill("power_on");
-	 foreach (player in GetPlayers()) {
-	 	player zm_score::add_to_player_score(50000);
-	 }
     
-	 IPrintLn("frogs10");
     self SetHintString("Press ^1[{+activate}]^7 to purchase " + perkname + "\n^2[ Cost = " + int( cost ) + " ]");
     self SetCursorHint("HINT_NOICON");
 
@@ -333,5 +328,46 @@ function specialty_count_handler ( specialtyname, cost, perkname )
 			wait 3;
 			self TriggerEnable( true );
 		}
+	}
+}
+
+function free_sode_ee()
+{
+	trigs = GetEntArray("free_soda_trig", "targetname");
+	level.free_sodas_obtained = 0;
+	foreach(trig in trigs)
+	{
+		trig thread free_soda_trig();
+	}
+}
+
+function free_soda_trig()
+{
+	self SetHintString("Hold ^3[{+activate}]^7 to activate");
+	self UseTriggerRequireLookAt();
+	self waittill("trigger", player);
+	level.free_sodas_obtained++;
+	
+	if (level.free_sodas_obtained == 3)
+	{
+		IPrintLn("You obtained THE ONE PIECE: A Free Soda from Golden Dragon!!!!");
+		self PlaySound("one_piece");
+		//Spawn powerup
+		spawn_loc = struct::Get("free_soda_spawn", "targetname");
+		zm_powerups::specific_powerup_drop("free_perk", spawn_loc.origin);
+		wait 1;
+		IPrintLn("Grab your free soda at the fountain. The one piece truly was the free soda we got along the way.");
+		
+		self SetHintString("Press ^3[{+activate}]^7 to play one piece again?");
+		for (;;)
+		{
+			self waittill("trigger", player);
+			self PlaySound("one_piece");
+		}
+	} else if (level.free_sodas_obtained < 3)
+	{
+		IPrintLn("You have obtained a free soda. Find "  + (3 - level.free_sodas_obtained) + " more");
+		self Delete();
+
 	}
 }
