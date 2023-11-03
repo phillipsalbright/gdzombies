@@ -115,7 +115,7 @@ function perk_threads()
     quick_revive thread specialty_count_handler( "specialty_quickrevive", 1500, "Quick Revive" );
 
     quick_revive_damage = GetEnt("quick_rev_damage", "targetname");
-    quick_revive_damage thread perk_damage_handler("quick_rev", "quick_rev_light");
+    quick_revive_damage thread perk_damage_handler("quick_rev", "quick_rev_light", "quick_revive");
 
 	 IPrintLn("frogs3");
     //callback::on_connect(&notify_joined);
@@ -123,23 +123,23 @@ function perk_threads()
 	 IPrintLn("frog4");
     thread perk_trig( "jugg_loc_bmt", "specialty_armorvest", 2500 , "Juggernog" );
     speed_cola_damage = GetEnt("jugg_damage", "targetname");
-    speed_cola_damage thread perk_damage_handler("jugg_loc_bmt", "jugg_light");
+    speed_cola_damage thread perk_damage_handler("jugg_loc_bmt", "jugg_light", "juggernog");
    
     thread perk_trig( "double_tap_loc", "specialty_doubletap2", 2000 , "Double Tap" );
     speed_cola_damage = GetEnt("double_tap_damage", "targetname");
-    speed_cola_damage thread perk_damage_handler("double_tap_loc", "double_tap_light");
+    speed_cola_damage thread perk_damage_handler("double_tap_loc", "double_tap_light", "double_tap");
     
     thread perk_trig( "speed_loc_bmt", "specialty_fastreload", 3000, "Speed Cola" );
     speed_cola_damage = GetEnt("speed_damage", "targetname");
-    speed_cola_damage thread perk_damage_handler("speed_loc_bmt", "speed_cola_light");
+    speed_cola_damage thread perk_damage_handler("speed_loc_bmt", "speed_cola_light", "speed_cola");
 
     thread perk_trig( "mule_kick_loc", "specialty_additionalprimaryweapon", 4000, "Mule Kick" );
     speed_cola_damage = GetEnt("mule_kick_damage", "targetname");
-    speed_cola_damage thread perk_damage_handler("mule_kick_loc", "mule_kick_light");
+    speed_cola_damage thread perk_damage_handler("mule_kick_loc", "mule_kick_light", "mule_kick");
 
     thread perk_trig( "widows_wine_loc", "specialty_widowswine", 4000, "Widow's Wine" );
     speed_cola_damage = GetEnt("widows_wine_damage", "targetname");
-    speed_cola_damage thread perk_damage_handler("widows_wine_loc", "widows_wine_light");
+    speed_cola_damage thread perk_damage_handler("widows_wine_loc", "widows_wine_light", "widows_wine");
 
 
     thread perk_trig( "electric_cherry_loc", "specialty_electriccherry", 2500, "Electric Cherry" );
@@ -164,7 +164,7 @@ function soda_machine_info()
 
 }
 
-function perk_damage_handler(perk_trigger, light_exploder_name)
+function perk_damage_handler(perk_trigger, light_exploder_name, song_name)
 {
 
     level waittill("power_on");
@@ -176,8 +176,9 @@ function perk_damage_handler(perk_trigger, light_exploder_name)
 		//enable perk
 		perktrig TriggerEnable(true);
 		exploder::exploder(light_exploder_name);
+		PlaySoundAtPosition(song_name, self.origin);
 		//perktrig = GetEnt(perk_trigger, "targetname");
-		wait 10;
+		wait 17;
 		perktrig TriggerEnable(false);
 		//disable perk
 
