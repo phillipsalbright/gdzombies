@@ -39,5 +39,11 @@
     "Filename" : "mysterybox_sounds.csv",
     "Specs" : [ ] 
 },
+{
+ "Type" : "ALIAS",
+ "Name" : "graffitis_aliases",
+ "Filename" : "graffitis_aliases.csv",
+ "Specs" : [ ] 
+},
 ]
 }

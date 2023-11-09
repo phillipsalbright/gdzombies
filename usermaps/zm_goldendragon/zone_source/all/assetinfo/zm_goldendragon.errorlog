@@ -1,4 +1,4 @@
-return 12066000
+return 15066000
 ^1ERROR: 'water_cooler_bottle' is not a valid physpreset asset
   physpreset:water_cooler_bottle
     xmodel:nt_2020_cardboardbox
@@ -51,6 +51,19 @@ return 12066000
 ^1Effect 'fx/dlc5/tomb/fx_tomb_marker.efx' not found
   fx:dlc5/tomb/fx_tomb_marker.efx
     csv:hb21_mystery_boxes.zpkg
+      csv:zone_source/zm_goldendragon.zone
+^1ERROR: Material mtl_origins_camo_alt was not found in gdtDB
+  material:mc/mtl_origins_camo_alt
+    weaponcamo:t8_camo_abr223_table
+      weapon:t8_abr223_up
+        csv:zone_source/zm_goldendragon.zone
+^1ERROR: image 'i_t6_reticle_rocket_launcher' is missing
+  image:i_t6_reticle_rocket_launcher
+    weapon:t8_hellion_salvo
+      csv:zone_source/zm_goldendragon.zone
+^1ERROR: image 'i_t6_minigun_center_reticle' is missing
+  image:i_t6_minigun_center_reticle
+    weapon:t8_overkill_zm
       csv:zone_source/zm_goldendragon.zone
 ^3WARNING: "zmcore_bgb_machine" is not a valid zbarrier
   zbarrier:zmcore_bgb_machine

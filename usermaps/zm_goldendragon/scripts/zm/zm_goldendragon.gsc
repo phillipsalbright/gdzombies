@@ -63,9 +63,9 @@
 
 function main()
 {
+	level._zombie_custom_add_weapons =&custom_add_weapons;
 	zm_usermap::main();
 	
-	level._zombie_custom_add_weapons =&custom_add_weapons;
 	
 	//Setup the levels Zombie Zone Volumes
 	level.zones = [];
@@ -212,15 +212,15 @@ function perk_handler( specialtyname, cost, perkname )
             if( player zm_score::can_player_purchase( int( cost ) ) )
             {
                 player zm_score::minus_to_player_score( int( cost ) );
-                player PlaySoundToPlayer( "zmb_cha_ching", player );
+               // player PlaySoundToPlayer( "zmb_cha_ching", player );
                 player thread do_perk_buy( specialtyname, player );
-                player PlaySoundToPlayer("belch", player);
-                PlayFX( level._effect[ "powerup_grabbed" ], self.origin );
+               // player PlaySoundToPlayer("belch", player);
+              //  PlayFX( level._effect[ "powerup_grabbed" ], self.origin );
               //  thread devprint(" GAVE " + specialtyname + "");
             }
             else
             {
-                PlayFX( level._effect[ "powerup_grabbed" ], self.origin );
+               // PlayFX( level._effect[ "powerup_grabbed" ], self.origin );
             }
         }
         else
@@ -257,7 +257,17 @@ function specialty_count_handler ( specialtyname, cost, perkname )
     self TriggerEnable(false);
     level waittill("power_on");
     //self TriggerEnable(true);
-	self SetHintString("Press ^1[{+activate}]^7 to purchase " + perkname + "\n^7[ ^2Cost = ^7" + cost + " ^7]\n [ ^1Solo =  ^7" + int( cost / 3 ) + " ^7]");
+    if (GetPlayers().size == 1)
+    {
+    	self SetHintString("Press ^1[{+activate}]^7 to purchase " + perkname + "\n^2[ Cost = " + int( cost / 3 ) + " ]");
+
+    }
+    else
+    {
+    	self SetHintString("Press ^1[{+activate}]^7 to purchase " + perkname + "\n^2[ Cost = " + int( cost ) + " ]");
+
+    }
+	//self SetHintString("Press ^1[{+activate}]^7 to purchase " + perkname + "\n^7[ ^2Cost = ^7" + cost + " ^7]\n [ ^1Solo =  ^7" + int( cost / 3 ) + " ^7]");
 	self SetCursorHint("HINT_NOICON");
 
 	level.solo_purchased = 0;
@@ -269,6 +279,7 @@ function specialty_count_handler ( specialtyname, cost, perkname )
 		{
 			if( GetPlayers().size == 1 )
 			{
+    			self SetHintString("Press ^1[{+activate}]^7 to purchase " + perkname + "\n^2[ Cost = " + int( cost / 3 ) + " ]");
 				if( player zm_score::can_player_purchase( int(cost / 3) ) )
 				{
 					player zm_score::minus_to_player_score( int(cost / 3) );
@@ -283,7 +294,7 @@ function specialty_count_handler ( specialtyname, cost, perkname )
 					if( level.solo_purchased >= 3 )
 					{
 						self TriggerEnable(false);
-						PlayFX( level._effect[ "powerup_grabbed" ], self.origin );
+						//PlayFX( level._effect[ "powerup_grabbed" ], self.origin );
 						wait 3;
 						level waittill("player_connected");
 						self TriggerEnable(true);
@@ -292,12 +303,13 @@ function specialty_count_handler ( specialtyname, cost, perkname )
 			} 
 			else
 			{
+    			self SetHintString("Press ^1[{+activate}]^7 to purchase " + perkname + "\n^2[ Cost = " + int( cost ) + " ]");
 				if( level flag::get("power_on" ) )
 				{
 					if( player zm_score::can_player_purchase( int( cost ) ) )
 					{
-						player zm_score::can_player_purchase( int( cost ) );
-						PlayFX( level._effect[ "powerup_grabbed" ], self.origin );
+						player zm_score::minus_to_player_score( int( cost ) );
+						//PlayFX( level._effect[ "powerup_grabbed" ], self.origin );
 						player PlaySoundToPlayer( "zmb_cha_ching", player );					
 						player do_perk_buy( specialtyname, player );
 						player PlaySoundToPlayer("belch", player);
@@ -358,7 +370,9 @@ function free_soda_trig()
 		zm_powerups::specific_powerup_drop("free_perk", spawn_loc.origin);
 		wait 1;
 		IPrintLn("Grab your free soda at the fountain. The one piece truly was the free soda we got along the way.");
-		
+		self TriggerEnable (false);
+		wait 100;
+		self TriggerEnable (true);
 		self SetHintString("Press ^3[{+activate}]^7 to play one piece again?");
 		for (;;)
 		{
