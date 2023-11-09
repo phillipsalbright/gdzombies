@@ -1,0 +1,142 @@
+iwmap 4
+// entity 0
+{
+guid "{25EC841A-E63D-11EA-9D93-04D4C4F210BA}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+}
+// entity 1
+// entity 2
+// entity 3
+// entity 4
+// entity 5
+// entity 6
+// entity 7
+// entity 8
+// entity 9
+// entity 10
+// entity 11
+// entity 12
+// entity 13
+// entity 14
+// entity 15
+// entity 16
+// entity 17
+// entity 18
+// entity 19
+// entity 20
+// entity 21
+// entity 22
+// entity 23
+// entity 24
+// entity 25
+// entity 26
+{
+guid "{BF44573C-1BB9-4135-B0E0-A6C58F634BE1}"
+"classname" "actor_spawner_zm_zod_zombie4"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"SCRIPT_FORCESPAWN" "1"
+"angles" "0 270 0"
+"coop_count" "9999 0 0 0"
+"count" "9999"
+"export" "1"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"spawnflags" "19"
+}
+// entity 27
+// entity 28
+// entity 29
+// entity 30
+// entity 31
+// entity 32
+{
+guid "{EE5149E8-E63C-11EA-9D93-04D4C4F210BA}"
+"classname" "actor_spawner_zm_zod_zombie5"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"SCRIPT_FORCESPAWN" "1"
+"angles" "0 270 0"
+"coop_count" "9999 0 0 0"
+"count" "9999"
+"export" "1"
+"origin" "64 0 0"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"spawnflags" "19"
+}
+// entity 33
+{
+guid "{EE5149F3-E63C-11EA-9D93-04D4C4F210BA}"
+"classname" "actor_spawner_zm_zod_zombie6"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"SCRIPT_FORCESPAWN" "1"
+"angles" "0 270 0"
+"coop_count" "9999 0 0 0"
+"count" "9999"
+"export" "1"
+"origin" "128 0 0"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"spawnflags" "19"
+}
+// entity 34
+{
+guid "{F454A4FC-E63C-11EA-9D93-04D4C4F210BA}"
+"classname" "actor_spawner_zm_zod_zombie3"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"SCRIPT_FORCESPAWN" "1"
+"angles" "0 270 0"
+"coop_count" "9999 0 0 0"
+"count" "9999"
+"export" "1"
+"origin" "128 -64 0"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"spawnflags" "19"
+}
+// entity 35
+{
+guid "{F454A507-E63C-11EA-9D93-04D4C4F210BA}"
+"classname" "actor_spawner_zm_zod_zombie2"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"SCRIPT_FORCESPAWN" "1"
+"angles" "0 270 0"
+"coop_count" "9999 0 0 0"
+"count" "9999"
+"export" "1"
+"origin" "64 -64 0"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"spawnflags" "19"
+}
+// entity 36
+{
+guid "{F454A512-E63C-11EA-9D93-04D4C4F210BA}"
+"classname" "actor_spawner_zm_zod_zombie1"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"SCRIPT_FORCESPAWN" "1"
+"angles" "0 270 0"
+"coop_count" "9999 0 0 0"
+"count" "9999"
+"export" "1"
+"origin" "0 -64 0"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"spawnflags" "19"
+}

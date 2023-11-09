@@ -207,8 +207,9 @@ xmodel,p7_gib_chunk_meat_03
 xmodel,p7_gib_chunk_flesh_01
 xmodel,p7_gib_chunk_flesh_03
 xmodel,p7_gib_chunk_bone_03
-xmodel,c_zom_der_zombie_body1
-xmodel,c_zom_der_zombie_body1_g_upclean
-xmodel,c_zom_der_zombie_body1_g_rarmoff
-xmodel,c_zom_der_zombie_body1_g_larmoff
+material,mc/mtl_c_gen_gib_gore_arm_right
+material,mc/mtl_c_gen_gib_gore_leg_thigh
+material,mc/mtl_c_gen_gib_gore_leg_thigh_a
+material,mc/mtl_c_gen_gib_gore_leg_calf_a
+material,mc/mtl_c_gen_gib_gore_leg_calf
 sound,zm_goldendragon
